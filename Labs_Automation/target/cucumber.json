@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14042194465,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User Login in Sorterlog Application",
+        "description": "",
+        "id": "validation-of-user-login-in-sorterlog-application;user-login-in-sorterlog-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 686007938,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 196873888,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open \"Chrome\" for Sorterlog Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 6
+                }
+              ],
+              "location": "UserLogin_Step.open_for_CenterOPS_Application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8235247259,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters Username as \"abhishek.gaur\" and password as \"UGl0bmV5QDE\u003d\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abhishek.gaur",
+                  "offset": 25
+                },
+                {
+                  "val": "UGl0bmV5QDE\u003d",
+                  "offset": 57
+                }
+              ],
+              "location": "UserLogin_Step.user_Enters_Username_as_and_password_as(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6904965241,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Message displayed User able to login",
+            "match": {
+              "location": "UserLogin_Step.message_displayed_User_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of User Login in SorterLog Application",
+    "description": "",
+    "id": "validation-of-user-login-in-sorterlog-application",
+    "keyword": "Feature",
+    "uri": "1_User_Login.feature"
+  }
+]
